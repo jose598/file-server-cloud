@@ -132,4 +132,16 @@ Vargas Aguirre Lilibeth
 ```
 # Amazon Web Service 
 	https://user-images.githubusercontent.com/51379487/130611144-1c1f92a8-57fe-485d-92d5-ee0983655e63.png
-
+```
+Para el nuevo diseño se adicionó servicios de AWS como:
+	 Amazon S3 bucket: utilizado especialmente para el almacenamiento de los archivos encriptados que ya sea fueron descargados por el usuario o subidos.
+	 IAM: administra el acceso de AWS de forma segura, nos permite crear usuarios y permisos para acceder a los recursos.
+	Role de IAM: permite tener políticas y permisos específicos para las entidades, asigna credenciales temporales para la sesión del rol. [3]
+	 Temporary security credential: nos brinda acceso al bucket s3 o cualquier servicio de Amazon que se sincronice con el rol.
+	 ECR: servidor administrado de registro de Docker de AWS nos permite insertar, extraer imágenes de repositorios privados de Docker con permisos de
+	nivel de recursos compatible con IAM, de esta manera las instancias de EC2 tengan acceso a los repositorios.
+	 Taks de ECR: permite ejecutar la imagen de Docker
+	 ECS cluster: un clúster con finalidad de que agrupar instancias de contenedores, permite escalar aplicaciones con contenedores, se administra el número de 			instancias EC2.
+	 Imagen de Docker: una imagen de Docker permite contener el código de la aplicación.
+	 EC2: Amazon Elastic Compute Cloud es una instancia de GPU que ejecuta una tarea ECS, provee facultad informática de forma segura y de tamaño adaptable.
+```
