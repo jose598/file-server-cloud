@@ -128,4 +128,8 @@ Vargas Aguirre Lilibeth
 	-Automatas
 	-Validaciones e implementacion de Hilos
 	-Edicion de Makefile
+	
 ```
+# Amazon Web Service 
+	![image](https://user-images.githubusercontent.com/51379487/130611144-1c1f92a8-57fe-485d-92d5-ee0983655e63.png)
+
